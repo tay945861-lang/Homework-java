@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Light ON OFF</title>
+</head>
+<body style="text-align:center;">
+
+<h2>Turn ON / OFF the Light</h2>
+
+<img id="light" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100">
+
+<br><br>
+
+<button onclick="turnOn()">Turn ON</button>
+<button onclick="turnOff()">Turn OFF</button>
+
+<script>
+  function turnOn() {
+    document.getElementById("light").src =
+    "https://www.w3schools.com/js/pic_bulbon.gif";
+  }
+
+  function turnOff() {
+    document.getElementById("light").src =
+    "https://www.w3schools.com/js/pic_bulboff.gif";
+  }
+</script>
+
+</body>
+</html>
